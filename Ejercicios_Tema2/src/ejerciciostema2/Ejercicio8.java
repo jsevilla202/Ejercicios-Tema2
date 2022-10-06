@@ -5,37 +5,30 @@ import java.util.Scanner;
 public class Ejercicio8 {
 
 	public static void main(String[] args) {
+		//Nombramos la variable como numero entero
 		int nota;
-		
+		//Creamos el scanner y lo nombramos "sc"
 		Scanner sc = new Scanner(System.in);
-		
-		System.out.print("Introduzca la nota: ");
+		//Pedimos al usuario que introduzca una nota entre 0 y 10
+		System.out.print("Introduzca la nota entre 0 y 10: ");
+		//Capturamos lo que ha introducido el usuario y lo guardamos en la variable "nota"
 		nota = sc.nextInt();
 		
-		if (nota<0||nota>10) {
-			System.out.print("Su nota no es valida");
+		//Creamos un switch y dependiendo de la nota introducida pasará una acción u otra
+		switch(nota) {
+		case 0: System.out.print("la nota es INSUFUICIENTE");
+		case 1: System.out.print("la nota es INSUFUICIENTE");
+		case 2: System.out.print("la nota es INSUFUICIENTE");
+		case 3: System.out.print("la nota es INSUFUICIENTE");
+		case 4: System.out.print("la nota es INSUFUICIENTE");
+		case 5: System.out.print("la nota es SUFUICIENTE");
+		case 6: System.out.print("la nota es BIEN");
+		case 7: System.out.print("la nota es NOTABLE");
+		case 8: System.out.print("la nota es NOTABLE");
+		case 9: System.out.print("la nota es SOBRESALIENTE");
+		case 10: System.out.print("la nota es SOBRESALIENTE");
 		}
-		
-		else if (nota>=0&&nota<5) {
-			System.out.print("Su nota es INSUFICIENTE");
-		}
-		
-		else if (nota>=5&&nota<6) {
-			System.out.print("Su nota es SUFICIENTE");
-		}
-		
-		else if (nota>=6&&nota<7) {
-			System.out.print("Su nota es BIEN");
-		}
-		
-		else if (nota>=7&&nota<9) {
-			System.out.print("Su nota es NOTABLE");
-		}
-		
-		else {
-			System.out.print("Su nota es SOBRESALIENTE");
-		}
-		
+		//Cerramos el scanner
 		sc.close();
 	}
 }
