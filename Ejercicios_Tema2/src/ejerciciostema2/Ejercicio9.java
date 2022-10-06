@@ -6,7 +6,6 @@ public class Ejercicio9 {
 
 	public static void main(String[] args) {
 		String respuesta1, respuesta2;
-		boolean gana1, gana2;
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Jugador 1 introduzca PIEDRA, PAPEL o TIJERAS: ");
