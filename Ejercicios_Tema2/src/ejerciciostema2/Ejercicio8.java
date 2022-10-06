@@ -16,23 +16,23 @@ public class Ejercicio8 {
 			System.out.print("Su nota no es valida");
 		}
 		
-		if (nota>=0&&nota<5) {
+		else if (nota>=0&&nota<5) {
 			System.out.print("Su nota es INSUFICIENTE");
 		}
 		
-		if (nota>=5&&nota<6) {
+		else if (nota>=5&&nota<6) {
 			System.out.print("Su nota es SUFICIENTE");
 		}
 		
-		if (nota>=6&&nota<7) {
+		else if (nota>=6&&nota<7) {
 			System.out.print("Su nota es BIEN");
 		}
 		
-		if (nota>=7&&nota<9) {
+		else if (nota>=7&&nota<9) {
 			System.out.print("Su nota es NOTABLE");
 		}
 		
-		if (nota>=9&&nota<=10) {
+		else {
 			System.out.print("Su nota es SOBRESALIENTE");
 		}
 		

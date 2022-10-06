@@ -16,23 +16,23 @@ public class Ejercicio7 {
 			System.out.print("Su número no es valido");
 		}
 		
-		if (numero>=0&&numero<=9) {
+		else if (numero>=0&&numero<=9) {
 			System.out.print("Su número tiene una cifra");
 		}
 		
-		if (numero>=10&&numero<=99) {
+		else if (numero>=10&&numero<=99) {
 			System.out.print("Su número tiene dos cifras");
 		}
 		
-		if (numero>=100&&numero<=999) {
+		else if (numero>=100&&numero<=999) {
 			System.out.print("Su número tiene tres cifras");
 		}
 		
-		if (numero>=1000&&numero<=9999) {
+		else if (numero>=1000&&numero<=9999) {
 			System.out.print("Su número tiene cuatro cifras");
 		}
 		
-		if (numero>=10000&&numero<=99999) {
+		else {
 			System.out.print("Su número tiene cinco cifras");
 		}
 		

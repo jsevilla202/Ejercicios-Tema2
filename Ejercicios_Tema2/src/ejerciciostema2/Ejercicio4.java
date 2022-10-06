@@ -18,14 +18,12 @@ public class Ejercicio4 {
 		if (numero1==numero2){
 			System.out.print("Estos números son iguales");
 		}
-		else {
-			if (numero1<numero2) {
+		else if (numero1<numero2) {
 				System.out.print(numero1 + " " + numero2);
 			}
-			else {
-				System.out.print(numero2 + " " + numero1);
+		else {
+			System.out.print(numero2 + " " + numero1);
 			}
-		}
 		sc.close();	
 		}
 
