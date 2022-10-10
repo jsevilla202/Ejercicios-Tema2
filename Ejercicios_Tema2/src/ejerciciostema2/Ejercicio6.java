@@ -32,10 +32,16 @@ public class Ejercicio6 {
 		raiz = (b*b)-4*a*c;
 		ecuacion1 = (-b+Math.sqrt(raiz))/(2*a);
 		ecuacion2 = (-b-Math.sqrt(raiz))/(2*a);
-		
+	
+		//Si la raiz es 0, la solución de x es -b/2*a
+		if(raiz==0) {
+			System.out.println("la solución de x es: " + (-b)/2*a);
+		}
+		else {
 		//Si el resultado de la raiz es inferior a 0 no existe, en otro caso mostramos las soluciones
 		System.out.print(raiz<0? "La raiz cuadrada no se puede realizar" : "Las soluciones de x son "+
 		ecuacion1 + " y " + ecuacion2);
+		}
 		//Cerramos el scanner
 		sc.close();	
 		}
