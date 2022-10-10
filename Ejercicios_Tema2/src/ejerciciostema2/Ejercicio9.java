@@ -29,8 +29,8 @@ public class Ejercicio9 {
 			else if(respuesta2.equals("TIJERAS")) {
 				System.out.println("El jugador 1 gana");
 			}
+			//En otro caso es empate
 			else {
-				//En otro caso es empate
 				System.out.println("Empate");
 			}
 		}
@@ -44,8 +44,8 @@ public class Ejercicio9 {
 			else if(respuesta2.equals("PIEDRA")) {
 				System.out.println("El jugador 1 gana");
 			}
+			//En otro caso es empate
 			else {
-				//En otro caso es empate
 				System.out.println("Empate");
 			}
 		}
@@ -59,8 +59,8 @@ public class Ejercicio9 {
 			else if(respuesta2.equals("PAPEL")) {
 				System.out.println("El jugador 1 gana");
 			}
+			//En otro caso es empate
 			else {
-				//En otro caso es empate
 				System.out.println("Empate");
 			}
 		}
