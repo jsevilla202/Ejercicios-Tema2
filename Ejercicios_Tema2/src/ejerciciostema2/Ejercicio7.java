@@ -19,19 +19,19 @@ public class Ejercicio7 {
 			System.out.print("Su número no es valido");
 		}
 		//Si el numero está entre 0 y 9, tendrá una cifra y lo mostramos
-		else if (numero>=0&&numero<=9) {
+		else if (numero<=9) {
 			System.out.print("Su número tiene una cifra");
 		}
 		//Si el numero está entre 10 y 99, tendrá dos cifra y lo mostramos
-		else if (numero>=10&&numero<=99) {
+		else if (numero<=99) {
 			System.out.print("Su número tiene dos cifras");
 		}
 		//Si el numero está entre 100 y 999, tendrá tres cifra y lo mostramos
-		else if (numero>=100&&numero<=999) {
+		else if (numero<=999) {
 			System.out.print("Su número tiene tres cifras");
 		}
 		//Si el numero está entre 1000 y 9999, tendrá tres cifra y lo mostramos
-		else if (numero>=1000&&numero<=9999) {
+		else if (numero<=9999) {
 			System.out.print("Su número tiene cuatro cifras");
 		}
 		//Si el numero no es ninguno de los anteriores, el numero tendrá 5 cifras y lo mostramos
